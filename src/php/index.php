@@ -1,6 +1,6 @@
 <?php
 
-chdir( ".." );
+//chdir( ".." );
 
 define( "debug", "1" );
 define( 'php', '.php' );

@@ -1,4 +1,4 @@
-﻿<div id="slider">
+<div id="slider">
 	<div id="container">
 		<script src="js/slides.min.jquery.js"></script>
 		<script src="js/slides.js"></script>
