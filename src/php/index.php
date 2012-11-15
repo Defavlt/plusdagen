@@ -8,24 +8,32 @@ define( 'php', '.php' );
 define( "root", getcwd() . "\\" );
 define( "conf", ".conf" );
 define( 'mods', root . 'php\\modules\\' );
+define( 'cont', root . 'php\\content\\' );
 
-$config = "config/php" . conf;
-$config = parse_ini_file( $config, true );
 
-ksort( $config['modules'] );
+$page = $_GET['p'];
+$config_pages = "config/php_pages" . conf;
+$config_pages = parse_ini_file( $config_pages, true );
 
-foreach ($config['modules'] as $mod_name => $mod_value) {
-	
-	$file = mods . $_GET['mod'] . php;
-	var_dump($file);
-	
-	if (file_exists($file)) {
-		
-		if (is_file($file)) {
-			
-			require( $file );
-		}
-	}
+if( !array_key_exists($page, $config_pages))
+{
+	$page = 'index';
 }
 
+ksort($config_pages[$page]);
+
+foreach ($config_pages[$page] as $key => $value) {
+	
+	if( $value != "content" )
+	{
+		$part = mods . $value . php;
+		require $part;
+	}
+	else
+	{
+		$part = cont . $page . php;
+		require $part;
+	}
+		
+}
 ?>
