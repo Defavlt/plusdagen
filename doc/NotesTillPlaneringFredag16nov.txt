@@ -17,6 +17,14 @@ rutiner för kommentering av kod
 
 rutiner för dokumentering (arbete som vi gör, tid vi lagt på vad)
 
+saker som ska vara klara innan sprint 2
+kunna köra php filer
+kunna pusha och pulla med git, samma mappstruktur hos alla
+
+förstå mappstrukturen så att vi alla lägger rätt sak i rätt mapp
+
+
+
 resultat av retrospective sprint 1
 
 bra:
