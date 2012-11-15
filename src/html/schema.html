@@ -1,226 +1,53 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8"/>
-<link href="main_style.css" rel="stylesheet" type="text/css"/>
-<title>Arbetsmarknadsdagen</title>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-	<script src="js/slides.min.jquery.js"></script>
-	<script>
-		$(function(){
-			$('#slides').slides({
-				preload: true,
-				preloadImage: 'img/loading.gif',
-				play: 5000,
-				pause: 2500,
-				hoverPause: true,
-				animationStart: function(current){
-					$('.caption').animate({
-						bottom:-35
-					},100);
-					if (window.console && console.log) {
-						// example return of current slide number
-						console.log('animationStart on slide: ', current);
-					};
-				},
-				animationComplete: function(current){
-					$('.caption').animate({
-						bottom:0
-					},200);
-					if (window.console && console.log) {
-						// example return of current slide number
-						console.log('animationComplete on slide: ', current);
-					};
-				},
-				slidesLoaded: function() {
-					$('.caption').animate({
-						bottom:0
-					},200);
-				}
-			});
-		});
-	</script>
-
-</head>
-
-<body>
-
-<div id="container_main">
-	<div id="header">
-	<h1>header</h1>
-			<div id="huvudmenu">
-				<ul id="menu">
-					<li><a href="#">Mässa</a>
-						<ul>
-							<li><a href="plats.html">Hitta till oss</a></li>
-							<li><a href="vad.html">Information</a></li>
-							<li><a href="schema.html">Tider</a></li>
-							<li><a href="plats.html">Platser</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#">Registrera</a>
-						<ul>
-							<li><a href="#">Anmälan</a></li>
-							<li><a href="#">Av anmälan</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Logga in</a>
-						<ul>
-							<li><a href="#">Användare</a></li>
-							<li><a href="#">Administratör</a></li>
-							<li><a href="#">Adminen</a></li>
-							<li><a href="#">Användaren</a></li>
-							<li><a href="#">Webb-Admin</a></li>
-							<li><a href="#">Lösenord</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Blogg</a>
-						<ul>
-							<li><a href="#">Kommentera</a></li>
-							<li><a href="#">Logga In</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-	</div>	
-	<div id="slider">
-	
-	
-		<div id="container">
-		
-		<div id="example">
-			
-			
-			
-			<div id="slides">
-				
-				<div class="slides_container">
-					
-					<div class="slide">
-						<a href="#" title="Första Bilden" target="_blank"><img src="bildspel/bild_a.png" width="960" height="300" alt="Slide 1"></a>
-						<div class="caption" style="bottom:0">
-							<p>Happy Bokeh Thursday!</p>
-						</div>
-					</div>
-					
-					<div class="slide">
-						<a href="#" title="Andra Bilden" target="_blank"><img src="bildspel/bild_b.png" width="960" height="300" alt="Slide 2"></a>
-						<div class="caption">
-							<p>Taxi</p>
-						</div>
-					</div>
-					
-					<div class="slide">
-						<a href="#" title="Tredje Bilden" target="_blank"><img src="bildspel/bild_c.png" width="960" height="300" alt="Slide 3"></a>
-						<div class="caption">
-							<p>Happy Bokeh raining Day</p>
-						</div>
-					</div>
-					
-					<div class="slide">
-						<a href="#" title="Fjärde Bilden" target="_blank"><img src="bildspel/bild_d.png" width="960" height="300" alt="Slide 4"></a>
-						<div class="caption">
-							<p>We Eat Light</p>
-						</div>
-					</div>
-					
-				</div>
-				
-				<a href="#" class="prev"><img src="img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
-				<a href="#" class="next"><img src="img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
-				
-			</div>
-			
-		</div>
-		
-
-		
-	</div>
-	
-	
-	</div>
-	
-	<div id="main_content">
-	<h1>content</h1>
-	
+﻿	
 		<div id="mainbox"> <!-- 3 kolumnerna ligger här -->
 			<div id="breadcrumb">
 			<a href="index.html">Hem</a> > <a href="massa.html">Mässa</a> > Schema
 			</div>
 			<div id="vad">
-			
 			<h1>Schema för arbetsmarknadsdagen</h1>
-		 <table border="6" width="500">
-<tr>
-<th>Företag</th>
-<th>Seminarie</th>
-<th>Dag</th>
-<th>Tid</th>
-</tr>
+				<table border="6" width="500">
+				<tr>
+				<th>Företag</th>
+				<th>Seminarie</th>
+				<th>Dag</th>
+				<th>Tid</th>
+				</tr>
 
-<tr>
-<td>Företag 1</td>
-<td>Affärside</td>
-<td>24/5-2013</td>
-<td>kl:9.00</td>
-</tr>
+				<tr>
+				<td>Företag 1</td>
+				<td>Affärside</td>
+				<td>24/5-2013</td>
+				<td>kl:9.00</td>
+				</tr>
 
-<tr>
-<td>Företag 2</td>
-<td>Varför jobba inom it?</td>
-<td>24/5-2013</td>
-<td>kl:11.00</td>
-</tr>
+				<tr>
+				<td>Företag 2</td>
+				<td>Varför jobba inom it?</td>
+				<td>24/5-2013</td>
+				<td>kl:11.00</td>
+				</tr>
 
-<tr>
-<td>Företag 3</td>
-<td>All tid i världen</td>
-<td>24/5-2013</td>
-<td>kl:13.00</td>
-</tr>
+				<tr>
+				<td>Företag 3</td>
+				<td>All tid i världen</td>
+				<td>24/5-2013</td>
+				<td>kl:13.00</td>
+				</tr>
 
-<tr>
-<td>Företag 4</td>
-<td>Framtiden</td>
-<td>24/5-2013</td>
-<td>kl.15.00</td>
-</tr>
+				<tr>
+				<td>Företag 4</td>
+				<td>Framtiden</td>
+				<td>24/5-2013</td>
+				<td>kl.15.00</td>
+				</tr>
 
-<tr>
-<td>Företag 5</td>
-<td>Din tid</td>
-<td>24/5-2013</td>
-<td>kl.17.00</td>
-</tr>
-
-
-</table>
+				<tr>
+				<td>Företag 5</td>
+				<td>Din tid</td>
+				<td>24/5-2013</td>
+				<td>kl.17.00</td>
+				</tr>
+				</table>
 
 			</div>
-	</div>
-	
-	<div id="footer">
-	<h1>footer</h1>
-	</div>
-</div>
-</body>
-</html>
-		
-		</body>
- 
- 
-
-
-
-
-
-
-
-
-	<footer>
-	
-	</footer>
-
-</html>
+	</div> <!-- mainbox slut -->

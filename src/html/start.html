@@ -1,72 +1,4 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8"/>
-<link href="main_style.css" rel="stylesheet" type="text/css"/>
-<title>Arbetsmarknadsdagen</title>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-	<script src="js/slides.min.jquery.js"></script>
-	<script>
-		$(function(){
-			$('#slides').slides({
-				preload: true,
-				preloadImage: 'img/loading.gif',
-				play: 5000,
-				pause: 2500,
-				hoverPause: true,
-				animationStart: function(current){
-					$('.caption').animate({
-						bottom:-35
-					},100);
-					if (window.console && console.log) {
-						// example return of current slide number
-						console.log('animationStart on slide: ', current);
-					};
-				},
-				animationComplete: function(current){
-					$('.caption').animate({
-						bottom:0
-					},200);
-					if (window.console && console.log) {
-						// example return of current slide number
-						console.log('animationComplete on slide: ', current);
-					};
-				},
-				slidesLoaded: function() {
-					$('.caption').animate({
-						bottom:0
-					},200);
-				}
-			});
-		});
-	</script>
-
-</head>
-
-<body>
-
-<div id="container_main">
-	<div id="header">
-include meny.html
-	</div>
-	
-	
-	<div id="slider">
-	
-	
-include slider.html
-		
-
-		
-	</div>
-	
-	
-	</div>
-	
-	<div id="main_content">
-	
-		<div id="mainbox"> <!-- 3 kolumnerna ligger här -->
+﻿		<div id="mainbox"> <!-- 3 kolumnerna ligger här -->
 			<div id="nyheter">
 			<h1>Nyheter</h1>
 			<dl>
@@ -141,12 +73,3 @@ include slider.html
 			</dl>
 			</div>
 		</div>
-	
-	</div>
-	
-	<div id="footer">
-include footer.html
-	</div>
-</div>
-</body>
-</html>
