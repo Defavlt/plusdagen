@@ -1,52 +1,47 @@
 Planering utav nästa sprint
+-Ta alla lappar och utveckla dom så att varje person kan ta vilken lapp som helst och jobba med den?!
+-Tidsuppskattning, omröstning
+-10 min per timme för diskussion mellan daily scrums
+-Tydliga roller scrummästare (närvaro, sprinten, daily scrums) produktägare (håller kontakt med carl, jocelyn), utvecklare
 
-Ta alla lappar och utveckla dom så att varje person kan ta vilken lapp som helst och jobba med den?
-
-tidsuppskattning, omröstning
-
-10 min per timme för diskussion mellan daily scrums
 
 Planering utav rutiner
-
-Tydliga roller scrummästare (närvaro, sprinten, daily scrums) produktägare (håller kontakt med carl, jocelyn), utvecklare
-
-rutiner för daily scrums. när ska vi ha dem, var, hur
+-Rutiner för daily scrums. när ska vi ha dem, var, hur
 uppdatera burndown chart under daily scrum
+-Rutiner för kommentering av kod
+-Rutiner för dokumentering (arbete som vi gör, tid vi lagt på vad)
+-Rutiner för scrummästare
+-Rutiner för produktägare
+-Rutiner för utvecklare(alla) Dokumentera arbete, Kommentera kod, Pull/Push
 
-rutiner för kommentering av kod
-
-rutiner för dokumentering (arbete som vi gör, tid vi lagt på vad)
-
-saker som ska vara klara innan sprint 2
-kunna köra php filer
-kunna pusha och pulla med git, samma mappstruktur hos alla
-
-förstå mappstrukturen så att vi alla lägger rätt sak i rätt mapp
+Saker som ska vara klara innan sprint 2
+-Kunna köra php filer
+-Kunna pusha och pulla med git, samma mappstruktur hos alla
+-Förstå mappstrukturen så att vi alla lägger rätt sak i rätt mapp
 
 
 
-resultat av retrospective sprint 1
+Resultat av retrospective sprint 1
+-Bra:
+-Git
+-Php-backend
+-Min (Rikards) slide
+-Hann allt planerat
+-Stämning
+-Bra grupp
 
-bra:
-git
-php-backend
-min slide
-hann allt planerat
-stämning
-bra grupp
+-Mindre bra:
+-Planering
+-Dokumentation
+-Fördelning av arbete
+-Första kodstrukturen
+-PO sitter på dokumentation (push it to git!) ||
+-Närvaro
+-Tidsuppskattning |
 
-mindre bra:
-planering
-dokumentation
-fördelning av arbete
-första kodstrukturen
-PO sitter på dokumentation (push it to git!) ||
-Närvaro
-Tidsuppskattning |
-
-gör om gör rätt:
-planeringsätt ||||| ||
-få git att funka i gruppen (rutiner för git)
-10 minuter per timme hourly scrum
-separera css
-scrummastern är asocial
+-Gör om gör rätt:
+-Planeringsätt ||||| ||
+-Få git att funka i gruppen (rutiner för git)
+-10 minuter per timme hourly scrum
+-Separera css
+-Scrummastern är asocial
