@@ -1,0 +1,98 @@
+
+#huvudmenu {
+	float: right;
+	position: relative;
+}
+
+#menu {
+	width: 960px;
+	margin: 2px;
+	padding: 0px;
+	height: 93px;
+	text-decoration: none;
+	list-style: none;
+	background: #000000;
+	border-radius: 0px;
+	margin-right:-0px;
+}
+
+#menu li {
+	float: left;
+	padding:30px;
+	position: relative;
+}
+
+#menu a {
+	float: left;
+	height: 25px;
+	padding:0 60px;
+	color: #999;
+	text-transform: uppercase;
+	font: bold 12px/25px Helvetica;
+	text-decoration: none;
+}
+
+#menu li:hover > a {
+	color:#b34b32;
+	z-index:9999;
+}
+
+#menu li:hover > ul{
+	display: block;
+}
+
+
+#menu ul{
+    list-style: none;
+    margin: 2px;
+    padding: 10px;
+    display: none;
+    position: absolute;
+    float: left;
+    background: #000000;
+    top:82px;
+    border-radius: 0px;
+    z-index:9999;
+}
+
+#menu ul li{
+    float: none;
+    margin:30px;
+    padding: 0;
+    display: block;  
+	border-radius:0px;
+}
+
+
+#menu ul a{    
+    padding: 8px;
+    height: auto;
+    line-height: 3px;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+
+#menu:after{
+	display: block;
+	content:"";
+	clear:both;
+	visibility:hidden;
+}
+
+#footer span {
+	text-decoration:none;
+	color:red;
+}
+
+#footer span a{
+	padding: 0;
+	margin: 0;
+	color: black;
+	font-size: 12px;
+	font-family: Georgia;
+}
+#footer span a:hover{
+	
+}
