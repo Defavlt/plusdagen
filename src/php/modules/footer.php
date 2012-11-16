@@ -10,12 +10,13 @@
 		</ul>
 		</div>
 		
-		<div id="footer_right">
+	<div id="footer_right">
 		Adress:
 		Teknikhögskolan
-		Malmvägen 7
-		39232 Kalmar
-		Mail: mail@mail.com
+			Malmvägen 7
+			39232 Kalmar
+			Mail: mail@mail.com
+			</div>
 		</div>
 	</div>
 </div>

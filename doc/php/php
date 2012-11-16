@@ -15,4 +15,5 @@ För att testa sidan på ett smidigt sätt:
 	   5. :wq
 
        För att starta upp en webserver, använd följande:
-           1. php -S localhost:80 routing.php
+           1. php -S localhost:8080 routing.php
+	   2. Knappa in 'localhost:8080' i din webbläsare.

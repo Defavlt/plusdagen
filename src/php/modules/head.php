@@ -6,7 +6,9 @@
 <title>Arbetsmarknadsdagen</title>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-
+	<script src="js/slides.min.jquery.js"></script>
+	<script src="js/slides.js"></script>
+	
 </head>
 <body>
 	<div id="container_main">
