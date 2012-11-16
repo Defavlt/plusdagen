@@ -39,8 +39,13 @@
 						
 					</div>
 					
-					<a href="#" class="prev"><img src="img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
-					<a href="#" class="next"><img src="img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
+					<a href="#" class="prev">
+						Prev
+					</a>
+					
+					<a href="#" class="next">
+						Next
+					</a>
 					
 				</div>
 				
