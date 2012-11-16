@@ -63,38 +63,12 @@ dd {
 
 
 
-#blandat h1 {
+#mainbox ~ h1 {
 	background-color: black;
 	padding: 0;
 	margin: 0;
 	color: white;
-	font-size: 12px;
-	font-family: Georgia;
-}
-
-#nyheter h1 {
-	background-color: black;
-	padding: 0;
-	margin: 0;
-	color: white;
-	font-size: 12px;
-	font-family: Georgia;
-}
-#foretag h1 {
-	background-color: black;
-	padding: 0;
-	margin: 0;
-	color: white;
-	font-size: 12px;
-	font-family: Georgia;
-}
-
-#footer h1 {
-	background-color: black;
-	padding: 0;
-	margin: 0;
-	color: white;
-	font-size: 12px;
+	font-size: 30px;
 	font-family: Georgia;
 }
 
