@@ -3,56 +3,8 @@
 font stilmall
 
 */
-#header h1 {
-	background-color: black;
-	padding: 0;
-	margin: 0;
-	color: white;
-	font-size: 12px;
-	font-family: Georgia;
 
-}
-dd {
-	margin-bottom: 3px;
-}
-dt a {
-	font-family: Georgia;
-	text-decoration: none;
-	color: gray;
-	font-size: 15px;
-	padding-left: 10px;
-}
-dt a:hover {
-	font-family: Georgia;
-	text-decoration: underline;
-	color: gray;
-	font-size: 15px;
-	padding-left: 10px;
-}
 
-dd {
-	font-family: Georgia;
-	font-size: 13px;
-	padding-left: 0px;
-}
-
-#slider h1 {
-	background-color: black;
-	padding: 0;
-	margin: 0;
-	color: white;
-	font-size: 12px;
-	font-family: Georgia;
-
-}
-#main_content h1 {
-	background-color: black;
-	padding: 0;
-	margin: 0;
-	color: white;
-	font-size: 12px;
-	font-family: Georgia;
-}
 
 
 
@@ -63,11 +15,9 @@ dd {
 
 
 
-#mainbox ~ h1 {
-	background-color: black;
+#mainbox h1 {
 	padding: 0;
 	margin: 0;
-	color: white;
 	font-size: 30px;
 	font-family: Georgia;
 }
