@@ -32,9 +32,9 @@ CSS för struktur och positionering. ingen färg eller font css här
 .kolumn {
 	width: 300px;
 	float: left;
-	border-style: solid;
-	border-color: black;
-	border-width: 1px;
+	#border-style: solid;
+	#border-color: black;
+	#border-width: 1px;
 	padding: 5px;
 	#margin-right: 10px;
 	#margin-top: 10px;
