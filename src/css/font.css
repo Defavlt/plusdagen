@@ -4,21 +4,28 @@ font stilmall
 
 */
 
-
-
-
-
 .clearfloat {
-	float: clear;
+	clear: left;
 }
-
-
-
 
 #mainbox h1 {
 	padding: 0;
 	margin: 0;
 	font-size: 30px;
 	font-family: Georgia;
+}
+
+#mainbox h2 {
+	padding: 0;
+	margin: 0;
+	font-size: 19px;
+	font-family: Georgia;
+}
+#mainbox p {
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	font-family: Georgia;
+
 }
 

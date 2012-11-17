@@ -2,31 +2,47 @@
 
 CSS för struktur och positionering. ingen färg eller font css här
 */
+#container_main {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/* Det är i mainbox som all content visas */
+#mainbox {
+	margin-right: auto;
+	margin-left: auto;
+}
+/* Längst ner på sidan på alla sidor. footer.css för footerns styling. */
 #footer {
 	width: 960px;
 	height: 100px;
 }
 
-#blandat {
-	width: 280px;
-	height: 400px;
-	float: left;
-	#border-width: 1px;
-	#border-style: solid;
-	#border-color: black;
-	margin-right: 10px;
-	margin-top: 10px;
+/* Menyn ligger i headern. För menyns style kolla */
+#header {
+	width:960px;
+	height: 100px;
 }
-#foretag {
-	width: 280px;
-	height: 400px;
-	float: left;
-	#border-width: 1px;
-	#border-style: solid;
-	#border-color: black;
-	margin-right: 10px;
-	margin-top: 10px;
+/* Slidern har egen css och html kod ligger i slide.php */
+#slider {
+	width: 960px;
+	height: 350px;
 }
+/* används för kolumnerna på startsidan */
+.kolumn {
+	width: 300px;
+	float: left;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	padding: 5px;
+	#margin-right: 10px;
+	#margin-top: 10px;
+}
+.kolumn article {
+	margin-top: 5px;
+}
+/* texten vänster om kartan på sidan plats */
 #plats_info {
 	float: left;
 	width: 370px;
@@ -43,9 +59,6 @@ CSS för struktur och positionering. ingen färg eller font css här
 	width: 800px;
 	height: 500px;
 	float: left;
-	#border-width: 1px;
-	#border-style: solid;
-	#border-color: black;
 	margin-right: 10px;
 	margin-top: 10px;
 	margin-left: 10px;
@@ -64,38 +77,4 @@ CSS för struktur och positionering. ingen färg eller font css här
 	margin-bottom: 10px;
 	overflow: auto;
 
-}
-#mainbox {
-	width: 900px;
-	margin-right: auto;
-	margin-left: auto;
-	overflow: auto;
-}
-#nyheter {
-	width: 280px;
-	height: 400px;
-	float: left;
-	#border-width: 1px;
-	#border-style: solid;
-	#border-color: black;
-	margin-right: 10px;
-	margin-top: 10px;
-	margin-left: 10px;
-}
-#container_main {
-	width: 960px;
-	#border-width: 1px;
-	#border-style: solid;
-	#border-color: black;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-#header {
-	width:960px;
-	height: 100px;
-}
-#slider {
-	width: 960px;
-	height: 350px;
 }

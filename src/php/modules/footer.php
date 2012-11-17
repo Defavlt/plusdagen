@@ -1,3 +1,6 @@
+	<div class="clearfloat">
+	&nbsp;
+	</div>
 <div id="footer">
 	<div id="foot">
 		<div id="left">
