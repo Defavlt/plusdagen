@@ -8,9 +8,7 @@
 			<p>Adress: Kalmarrondellen</p>
 			<p>Adress: Kalmarrondellen</p>
 			<p>Adress: Kalmarrondellen</p>
-		</div>
-<<<<<<< HEAD
-		
+		</div>		
 	<div id="footer_right">
 		Adress:
 		Teknikhögskolan
@@ -18,7 +16,6 @@
 			39232 Kalmar
 			Mail: mail@mail.com
 			</div>
-=======
 		<div id="center">
 			<p class="text1">Registrera</p>
 			<p>Adress: Kalmarrondellen</p>
@@ -36,7 +33,6 @@
 			<p>Adress: Kalmarrondellen</p>
 			<p>Adress: Kalmarrondellen</p>
 			<p>Adress: Kalmarrondellen</p>
->>>>>>> 9596652723abe232ab1388ece6eb170ebfe3a772
 		</div>
 	</div>
 </div>
