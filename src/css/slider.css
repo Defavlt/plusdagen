@@ -4,6 +4,9 @@
 	max-width:960px;
 	margin:0 auto;
 	padding-bottom:150px;
+	
+/*Detta är en dum lösning på mozilla height problemet*/
+	padding-top:97px;
 }
 
 
@@ -22,6 +25,18 @@ ul.bjqs-controls.v-centered li a:hover{
 	color:#fff;
 }
 
+/*
+Styling på prev/next "knapparna"
+*/
+
+li.bjqs-prev a{
+	border-radius:0px 10px 10px 0px;
+}
+
+li.bjqs-next a{
+	border-radius:10px 0px 0px 10px;
+}
+
 /*Sid visare non-select*/
 ol.bjqs-markers li a{
 	padding:5px 10px;
@@ -29,6 +44,7 @@ ol.bjqs-markers li a{
 	color:#fff;
 	margin:5px;
 	text-decoration: none;
+	border-radius: 5px;
 }
 
 /*Sid visare selected*/
