@@ -1,4 +1,13 @@
-$(function() {
+(function () {
+	
+	$.prototype.slide = function ( ) {
+		
+		2 
+		
+	}
+})
+
+$(function() {		
 
 	$('#slides').slides({
 		preload : true,
