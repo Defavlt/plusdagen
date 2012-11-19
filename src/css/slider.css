@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #slider {
 	width: 100%;
 	position:relative;
@@ -26,3 +27,63 @@
 #slider .slide {
 	visibility: hidden;
 }
+=======
+/*	Slider CSS	*/
+
+#container{
+	max-width:960px;
+	margin:0 auto;
+	padding-bottom:60px;
+	
+/*Detta är en dum lösning på mozilla height problemet*/
+	padding-top:97px;
+}
+
+
+/* Prev/Next styling*/
+ul.bjqs-controls.v-centered li a{
+	display:block;
+	padding:10px;
+	background:#fff;
+	color:#000;
+	text-decoration: none;
+}
+
+/* Prev/Next styling Hover*/
+ul.bjqs-controls.v-centered li a:hover{
+	background:#000;
+	color:#fff;
+}
+
+/*
+Styling på prev/next "knapparna"
+*/
+
+li.bjqs-prev a{
+	border-radius:0px 10px 10px 0px;
+}
+
+li.bjqs-next a{
+	border-radius:10px 0px 0px 10px;
+}
+
+/*Sid visare non-select*/
+ol.bjqs-markers li a{
+	padding:5px 10px;
+	background:#999;
+	color:#fff;
+	margin:5px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+/*Sid visare selected*/
+ol.bjqs-markers li.active-marker a,
+ol.bjqs-markers li a:hover{
+	background: #000;
+}
+
+p.bjqs-caption{
+	background: rgba(255,255,255,0.5);
+}
+>>>>>>> a38197655a82b5190359b84af51b2b6f835ac6a2

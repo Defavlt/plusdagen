@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div id="slider">
 	<div class="slide">
 		<a href="#" title="Första Bilden" target="_blank">
@@ -33,5 +34,27 @@
 				We Eat Light
 			</p>
 		</div>
+=======
+
+<div id="container">
+
+	      <!--  Outer wrapper for presentation only, this can be anything you like -->
+	<div id="banner-fade">
+	
+		<!-- start Basic Jquery Slider -->
+		<ul class="bjqs">
+			<li><img src="img/bild_a.png" title="Bild1"></li>
+			<li><img src="img/bild_b.png" title="Bild2"></li>
+			<li><img src="img/bild_c.png" title="Bild3"></li>
+			<li><img src="img/bild_d.png" title="Bild4"></li>
+		</ul>
+		<!-- end Basic jQuery Slider -->
+	
+>>>>>>> a38197655a82b5190359b84af51b2b6f835ac6a2
 	</div>
+	<!-- End outer wrapper -->
+
 </div>
+
+   
+
