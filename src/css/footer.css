@@ -1,3 +1,78 @@
 /*
-här ska footer css:en vara
+hï¿½r ska footer css:en vara
 */
+
+body:before {
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;
+}
+
+p {
+	margin:3px 0 5px 0
+}
+
+#footer {
+	position: relative;
+	margin-top: -180px; 
+	height: 180px;
+	clear:both;
+	z-index:9999;
+	background: #444444;
+	color:#ffffff;
+	font-family:Verdana, Arial, sans-serif;
+}
+#footer a {
+	color:#ffffff;
+	font-size:11px;
+	text-decoration:none;
+}
+
+#footer a:hover {
+	color:#333333;
+	text-decoration:none;
+}
+
+#footer a:visited  {
+	color:#344344;
+	text-decoration:underline;
+}
+
+#foot {
+	width:800px;
+	margin:0 auto;
+	height:140px;
+	line-height:1.1em;
+	padding:0 10px 0 10px;
+}
+
+#foot #left {
+	width:200px;
+	float:left;
+	padding-top:25px;
+}
+
+#foot #center{
+	width:200px;
+	float:left;
+	padding-top:25px;
+}
+
+#foot #right {
+	width:200px;
+	float:left;
+	padding-top:25px
+}
+
+#foot #right2 {
+	width:200px;
+	float:left;
+	padding-top:25px;
+}
+#foot p.text1{
+	font-size:15px;
+	color:#000000;
+	margin-bottom:15px;
+}
