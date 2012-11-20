@@ -1,41 +1,30 @@
-	<div class="clearfloat">
-	&nbsp;
-	</div>
-<div id="footer">
-	<div id="foot">
-		<div id="left">
-			<p class="text1">Mässa</p>
-			<p>Adress: Kalmarrondellen</p>
-			<p>Adress: Kalmarrondellen</p>
-			<p>Adress: Kalmarrondellen</p>
-		</div>		
-	<div id="footer_right">
-		Adress:
-		Teknikhögskolan
-			Malmvägen 7
-			39232 Kalmar
-			Mail: mail@mail.com
-			</div>
-		<div id="center">
-			<p class="text1">Registrera</p>
-			<p>Adress: Kalmarrondellen</p>
-			<p>Adress: Kalmarrondellen</p>
-			<p>Adress: Kalmarrondellen</p>
+<div id="foot">
+		<div id="menyfoot">
+			<p class="text1foot">huvudmeny</p>
+			<p><a href="#">mässa</a></p>
+			<p><a href="#?">registrera</a></p>
+			<p><a href="#?">logga in</a></p>
+			<p><a href="#?">nyheter</a></p>
+			<p><a href="#?">hitta oss</a></p>
 		</div>
-		<div id="right">
-			<p class="text1">Logga in</p>
-			<p>Adress: Kalmarrondellen</p>
-			<p>Adress: Kalmarrondellen</p>
-			<p>Adress: Kalmarrondellen</p>
+		<div id="registrerafoot">
+			<p class="text1foot">hitta till oss</p>
+			<p>adress: strömgatan 3</p>
+			<p>telefon: 0480-45902</p>
+			<p>post: 369 45 Kalmar</p>
 		</div>
-		<div id="right2">
-			<p class="text1">Nyheter</p>
-			<p>Adress: Kalmarrondellen</p>
-			<p>Adress: Kalmarrondellen</p>
-			<p>Adress: Kalmarrondellen</p>
+		<div id="loggainfoot">
+			<p class="text1foot">kontakta oss</p>
+			<p>strömgatan 3</p>
+			<p>369 45 kalmar</p>
+			<p>tel: 0480-45902</p>
+			<p><a href="mailto:Support@plusdagen.se">maila oss</a></p>
+		</div>
+		<div id="nyheterfoot">
+			<p class="text1foot">karta</p>
+			<p class="googlemaps"><a href="googlemaps.html" title="Södra malmgatan 7">Google Maps</a></p>
 		</div>
 	</div>
-</div>
 </div>
 </body>
 </html>
