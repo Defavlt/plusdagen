@@ -7,7 +7,7 @@ class login
 {
 	function __construct() 
 	{
-		require_once('HttpBindable' . php);
+		require_once(classes . 'HttpBindable' . php);
 
 		$reg = new Registerer( 'POST' );
 		$reg->Bind();

@@ -14,8 +14,6 @@ define( 'cont', root . 'php\\content\\' );
 define(	'classes', root . 'php\\classes\\' );
 define( 'cache', root . 'php\\cache\\' );
 
-
-
 $page = $_GET['p'];
 $api  = $_GET['api'];
 
@@ -56,5 +54,5 @@ else
 	}
 }
 
-ob_get_clean();
+echo ob_get_clean();
 ?>
