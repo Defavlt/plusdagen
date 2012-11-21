@@ -11,7 +11,7 @@
 			<li><img src="img/bild_d.png" title="Bild4"></li>
 		</ul>
 		<!-- end Basic jQuery Slider -->
-	
+		
 	</div>
 	<!-- End outer wrapper -->
 
