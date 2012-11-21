@@ -12,6 +12,7 @@ class login
 		$reg = new Registerer( 'POST' );
 		$reg->Bind();
 		$reg->Hash($reg->username);
+		$loc = isset($_GET['redirect']) ? $_GET['redirect'] : 'done_login';
 		
 		if( file_exists(cache . $reg->username))
 		{
@@ -21,7 +22,10 @@ class login
 			
 			if ($user->password == $reg->password) 
 			{
-				header('Location: index.php?p=done_login');
+				session_start();
+				
+				$_SESSION['user'] = $reg;
+				header('Location: index.php?p=' . $loc);
 			} 
 			else 
 			{
