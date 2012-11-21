@@ -5,10 +5,10 @@
 	
 		<!-- start Basic Jquery Slider -->
 		<ul class="bjqs">
-			<li><img src="img/bild_a.png" title="Bild1"></li>
-			<li><img src="img/bild_b.png" title="Bild2"></li>
-			<li><img src="img/bild_c.png" title="Bild3"></li>
-			<li><img src="img/bild_d.png" title="Bild4"></li>
+			<li><img src="img/massa_2.png" title="Bild1"></li>
+			<li><img src="img/hand.png" title="Bild2"></li>
+			<li><img src="img/kalmarslott.png" title="Bild3"></li>
+			<li><img src="img/nyheter.png" title="Bild4"></li>
 		</ul>
 		<!-- end Basic jQuery Slider -->
 		
