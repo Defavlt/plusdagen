@@ -9,7 +9,8 @@ define( "root", getcwd() . "\\" );
 define( "conf", ".conf" );
 define( 'mods', root . 'php\\modules\\' );
 define( 'cont', root . 'php\\content\\' );
-define(	'classes', root . 'php\\classes\\');
+define(	'classes', root . 'php\\classes\\' );
+define( 'cache', root . 'php\\cache\\' );
 
 
 
@@ -18,9 +19,9 @@ $api  = $_GET['api'];
 
 if( isset($api)) 
 {
-	if (is_file($api)) 
+	if (is_file(classes . $api . php)) 
 	{
-		require_once(classes . $api);
+		require_once(classes . $api . php);
 		new $api;
 	}
 }
