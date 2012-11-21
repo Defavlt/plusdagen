@@ -3,17 +3,16 @@
 <head>
 <meta charset="utf-8"/>
 <link href="css/font.css" rel="stylesheet" type="text/css"/>
-<link href="css/slider.css" rel="stylesheet" type="text/css"/>
 <link href="css/meny.css" rel="stylesheet" type="text/css"/>
 <link href="css/pos_struktur.css" rel="stylesheet" type="text/css"/>
 
 <title>Arbetsmarknadsdagen</title>
 
-    <!-- bjqs.css contains the *essential* css needed for the slider to work, den här behövs annars så chrasr slidern -->
+    <!-- bjqs.css contains the *essential* css needed for the slider to work, den här behövs annars så crashar slidern -->
     <link rel="stylesheet" href="css/bjqs.css">
 
 
-    <!-- demo.css contains additional styles used to set up this demo page - not required for the slider --> 
+    <!-- demo.css contains additional styles used to set up this demo page - not required for the slider, den här är för styling på slidern --> 
     <link rel="stylesheet" href="css/slider.css">
 
     <!-- load jQuery and the plugin -->

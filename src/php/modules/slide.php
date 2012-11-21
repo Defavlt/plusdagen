@@ -1,7 +1,6 @@
-
 <div id="container">
 
-	      <!--  Outer wrapper for presentation only, this can be anything you like -->
+	<!--  Outer wrapper for presentation only, this can be anything you like -->
 	<div id="banner-fade">
 	
 		<!-- start Basic Jquery Slider -->
@@ -17,6 +16,3 @@
 	<!-- End outer wrapper -->
 
 </div>
-
-   
-
