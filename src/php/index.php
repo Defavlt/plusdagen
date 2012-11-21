@@ -2,6 +2,8 @@
 
 //chdir( ".." );
 
+ob_start();
+
 define( "debug", "1" );
 define( 'php', '.php' );
 
@@ -53,4 +55,6 @@ else
 			
 	}
 }
+
+ob_get_clean();
 ?>
