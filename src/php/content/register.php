@@ -1,6 +1,18 @@
 ﻿<div id="main_content">
 	<div id="mainbox">
-	<form action="index.php?api=register" method="post">
+	<script type="text/javascript">
+	function validateForm()
+	{
+	var x=document.forms["regform"]["password"].value;
+	var y=document.forms["regform"]["password2"].value;
+	if (x != y)
+	  {
+	  alert("Lösenordet stämmer ej med det upprepade lösenordet");
+	  return false;
+	  }
+	}
+	</script>
+	<form action="index.php?api=register" method="post" name="regform" onsubmit="return validateForm()">
 		<fieldset>
 		<legend>Skapa ett konto</legend>
 		<table>
