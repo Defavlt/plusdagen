@@ -1,8 +1,5 @@
 ﻿	
 		<div id="mainbox"> <!-- 3 kolumnerna ligger här -->
-			<div id="breadcrumb">
-			<a href="index.html">Hem</a> > <a href="massa.html">Mässa</a> > Schema
-			</div>
 			<div id="vad">
 			<h1>Schema för arbetsmarknadsdagen</h1>
 			<p>Här nedan ser ni tiderna för de olika seminarier som är inplanerade.</p>

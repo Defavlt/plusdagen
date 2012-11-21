@@ -1,8 +1,4 @@
 ﻿<div id="mainbox"> <!-- 3 kolumnerna ligger här -->
-			<div id="breadcrumb">
-			<a href="index.html">Hem</a> > <a href="massa.html">Mässa</a> > Plats
-			</div>
-			
 			<div id="plats">
 					<h1>Plats</h1>			
 				<div id="karta1">
