@@ -1,15 +1,13 @@
-<<<<<<< Updated upstream
-﻿<div id="main_content">
+<!--
+	<div id="main_content">
 	<div id="mainbox">
 <<<<<<< HEAD
 =======
-﻿<div id="mainboxlog">
+﻿-->
+<div id="mainboxlog">
 	<div id="mainbox_login">
->>>>>>> Stashed changes
 		<div class="forms">
-=======
->>>>>>> member_functions_php
-	<form action="index.php?api=login" method="post">
+		<form action="index.php?api=login" method="post">
 		<fieldset>
 		<legend>Logga In</legend>
 		<table>
@@ -26,11 +24,8 @@
 		<b>Logga In</b>
 		</button>
 		</fieldset>
-	</form>
-	<p>Ej registrerad? <a href="?p=register">Skapa ett konto</a></p>
-<<<<<<< HEAD
+		</form>
+		<p>Ej registrerad? <a href="?p=register">Skapa ett konto</a></p>
 		</div>
-=======
->>>>>>> member_functions_php
 	</div>
 </div>
