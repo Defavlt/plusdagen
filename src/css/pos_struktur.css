@@ -1,34 +1,38 @@
 /*
 
-CSS för struktur och positionering. ingen färg eller font css här
+CSS fï¿½r struktur och positionering. ingen fï¿½rg eller font css hï¿½r
 */
+
+	
 #container_main {
 	width: 960px;
 	margin-right: auto;
 	margin-left: auto;
 }
-/* Det är i mainbox som all content visas */
+/* Det ï¿½r i mainbox som all content visas */
 #mainbox {
 	margin-right: auto;
 	margin-left: auto;
 }
-/* Längst ner på sidan på alla sidor. footer.css för footerns styling. */
-#footer {
-	width: 960px;
-	height: 100px;
+
+#main_content {
+	width:960px;
+	height:600px;
 }
 
-/* Menyn ligger i headern. För menyns style kolla */
+
+
+/* Menyn ligger i headern. Fï¿½r menyns style kolla */
 #header {
 	width:960px;
-	height: 100px;
+	height: 40px;
 }
 /* Slidern har egen css och html kod ligger i slide.php */
 #slider {
 	width: 960px;
 	height: 350px;
 }
-/* används för kolumnerna på startsidan */
+/* anvï¿½nds fï¿½r kolumnerna pï¿½ startsidan */
 .kolumn {
 	width: 300px;
 	float: left;
@@ -42,7 +46,7 @@ CSS för struktur och positionering. ingen färg eller font css här
 .kolumn article {
 	margin-top: 5px;
 }
-/* texten vänster om kartan på sidan plats */
+/* texten vï¿½nster om kartan pï¿½ sidan plats */
 #plats_info {
 	float: left;
 	width: 370px;
@@ -78,3 +82,4 @@ CSS för struktur och positionering. ingen färg eller font css här
 	overflow: auto;
 
 }
+

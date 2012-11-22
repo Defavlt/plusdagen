@@ -1,31 +1,558 @@
+#container_main {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#header {
+	width:960px;
+	height: 40px;
+}
+#slider {
+	width: 960px;
+	height: 350px;
+}
+
+dt {
+	margin-bottom: 3px;
+	margin-left:5px;
+}
+dt a {
+	font-family: Georgia;
+	text-decoration: none;
+	color: gray;
+	font-size: 15px;
+	padding-left: 10px;
+}
+dt a:hover {
+	font-family: Georgia;
+	text-decoration: underline;
+	color: #b34b20;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+dd {
+	font-family: Georgia;
+	margin-bottom: 3px;
+	margin-left:25px;
+	font-size: 13px;
+	padding-left: 0px;
+}
+
+#slider h1 {
+	background-color: black;
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-size: 12px;
+	font-family: Georgia;
+}
+
+#main_content {
+	width:960px;
+	height:600px;
+}
+
+#main_content h1 {
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-size: 12px;
+	font-family: Georgia;
+}
+
+#mainbox {
+	width: 960px;
+	height:480px;
+	color:#444444;
+	border-radius:10px;
+	background-color:lightgray;
+	padding:0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#nyheter_vv{
+	width: 900px;
+	height: 430px;
+	border-radius:10px;
+	background-color:#efefef;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#nyheter {
+	width: 305px;
+	height: 430px;
+	border-radius:10px;
+	background-color:#efefef;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#foretag {
+	width: 305px;
+	height: 430px;
+	border-radius:10px;
+	background-color:#efefef;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#blandat {
+	width: 305px;
+	height: 430px;
+	border-radius:10px;
+	background-color:#efefef;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#blandat h1 {
+	padding: 0;
+	margin: 0;
+	font-variant:small-caps;
+	margin-left:10px;
+	color: #434343;
+	text-decoration:none;
+	font-size: 20px;
+	font-family: Georgia;
+}
+
+#nyheter h1 {
+	padding: 0;
+	margin: 0;
+	font-variant:small-caps;
+	color: #434343;
+	margin-left:10px;
+	text-decoration:none;
+	font-size: 20px;
+	font-family: Georgia;
+}
+
+#nyheter_vv h1 {
+	padding: 0;
+	margin: 0;
+	font-variant:small-caps;
+	color: #434343;
+	margin-left:10px;
+	text-decoration:none;
+	font-size: 20px;
+	font-family: Georgia;
+}
+#nyheter_vv p{
+	font-size:25px;
+}
+
+#foretag h1 {
+	padding: 0;
+	margin: 0;
+	margin-left:10px;
+	font-variant:small-caps;
+	color: #434343;
+	font-size: 20px;
+	text-decoration:none;
+	font-family: Georgia;
+}
+
+/*	Slider CSS	*/
+
 /*
+	Page style
+*/
+body { 
+	font:normal 62.5%/1.5 Helvetica, Arial, sans-serif;
+	letter-spacing:0;
+	color:black;
+	background:#efefef;
+	padding:20px 0;
+	position:relative;
+	}
 
-font stilmall
+#container {
+	width:960px;
+	
+	/*
+	padding:10px;
+	*/
+	
+	/*
+	margin:0 auto;
+	*/
+	
+	/*
+	margin-left:auto;
+	margin-right:auto;
+	*/
+	position:relative;
+	z-index:0;
+}
 
+#example {
+	width:600px;
+	height:350px;
+	position:relative;
+}
+
+#frame {
+	position:absolute;
+	z-index:0;
+	width:739px;
+	height:341px;
+	top:-3px;
+	left:-80px;
+}
+
+/*
+	Slideshow
 */
 
-.clearfloat {
-	clear: left;
+#slides {
+	position:absolute;
+	top:15px;
+	/*
+	left:4px;
+	*/
+	z-index:100;
 }
 
-#mainbox h1 {
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:960px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container div.slide {
+	width:960px;
+	height:270px;
+	display:block;
+}
+
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	/*top:107px;*/
+	/*left:-39px;*/
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:936px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:26px auto 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+/*
+	Caption
+*/
+
+.caption {
+	z-index:500;
+	position:absolute;
+	bottom:-35px;
+	left:0;
+	height:30px;
+	padding:5px 20px 0 20px;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	width:960px;
+	font-size:1.3em;
+	line-height:1.33;
+	color:#fff;
+	border-top:1px solid #000;
+	text-shadow:none;
+}
+
+#huvudmenu {
+	position: relative;	
+}
+
+#menu {
+	position:relative;
+	width: 960px;
+	margin-top:0px;
+	border-radius:5px;
+	padding:0px;
+	list-style:none;
+	text-decoration:none;
+	margin-right:0px;
+	z-index:99999;
+}
+
+#menu li {
+	float: left;
+	left:4px;
+	top:2px;
+	padding:1px;
+	border-radius:5px;
+	padding:0px;
+	margin:1px;
+	z-index:999999;
+	position: relative;
+}
+
+#menu li a:hover{
+	background-color:white;
+	width:200px;
+	height:94px;
+}
+
+#menu li:hover{
+	background-color:#666666;
+}
+
+#menu li a{
+	color:#8A8A8A;
+	position:relative;
+	margin-left:2px;
+	height:100px;
+	border-radius:4px;
+	text-decoration:none;
+}
+
+#menu li a:active{
+	visibility:visible;
+	background-color:gray;
+}
+
+#menu a {
+	float: left;
+	padding:0px;
+	width:200px;
+	font-variant:small-caps;
+	height:40px;
+	left:5px;
+	color: black;
+	font-size:30px;
+	text-decoration: none;
+}
+#menu a:visited {
+	text-decoration:underline;
+	color:#8D8D8D;
+}
+
+#menu li:hover > a {
+	color:#b34b32;
+	text-decoration:none;
+	background-color:white;
+	width:200px;
+	height:40px;
+	z-index:9999;
+}
+
+#wrap {
+	min-height: 100%;
+}
+
+#menu li:hover > ul{
+	display:block;
+}
+
+#menu ul{
+    list-style:none;
+    text-decoration:none;
+    left:100px;
+    display: none;
+    position: absolute;
+    visibility:visible;
+    float:left;
+    top:52px;
+    z-index:9999;
+}
+
+#menu ul li{
+	margin-top:0px;
+}
+
+
+#menu li ul li a{
+	font-size:16px;
+	width:200px;
+	height:30px;
+}
+
+#menu li li a:hover{
+	width:199px;
+	height:29px;
+}
+
+#menu li li{
+	background-color:#efefef;
+}
+
+#menu:after{
+	display: block;
+	content:"";
+	clear:both;
+	visibility:hidden;
+}
+
+* {
+	margin:0;padding:0;
+} 
+
+
+
+#wrap {
+	min-height: 100%;
+	z-index:99999;
+}
+
+
+/*footern .CSS startar h√§r*/
+
+body:before {
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;
+}
+
+
+
+#foot h1 {
+	background-color: #444444;
 	padding: 0;
 	margin: 0;
-	font-size: 30px;
+	color: white;
+	font-size: 12px;
 	font-family: Georgia;
 }
-
-#mainbox h2 {
-	padding: 0;
-	margin: 0;
-	font-size: 19px;
-	font-family: Georgia;
+#foot {
+	position: relative;
+	height: 250px;
+	margin-bottom:-30px;
+	z-index:9999;
+	border-radius:10px 10px 0 0;
+	background-color: lightgray;
+	color:#efefef;
+	font-family:Verdana, Arial, sans-serif;
 }
-#mainbox p {
-	padding: 0;
-	margin: 0;
-	font-size: 15px;
-	font-family: Georgia;
-
+#foot a {
+	color:#444444;
+	font-size:11px;
+	text-decoration:none;
 }
 
+#registreafoot a {
+	font-size:20px;
+	text-decoration:none;
+}
+
+#foot a:hover {
+	color:gray;
+	text-decoration:none;
+}
+
+#foot #menyfoot {
+	position:relative;
+	width:150px;
+	margin-top:20px;
+	left:70px;
+	float:left;
+}
+#menyfoot p a{
+	font-size:12px;
+	color:#444444;
+	
+}
+
+#foot #registrerafoot {
+	position:relative;
+	width:200px;
+	margin-top:20px;
+	left:110px;
+	float:left;
+}
+#foot #loggainfoot {
+	position:relative;
+	width:200px;
+	margin-top:20px;
+	left:120px;
+	float:left;
+}
+
+#foot #nyheterfoot {
+	position:relative;
+	width:200px;
+	margin-top:20px;
+	left:130px;
+	float:left;
+}
+#foot p.text1foot {
+	font-size:25px;
+	text-decoration:none;
+	text-shadow:none;
+	font-variant:small-caps;
+	color:#666666;
+}
+
+#foot p {
+	margin-top:0px;
+	text-decoration:none;
+	font-family:Verdana, Arial, sans-serif;
+	font-size:14px;
+	text-decoration:none;
+	color:#666666;
+	text-shadow:none;
+	font-variant:small-caps;
+}

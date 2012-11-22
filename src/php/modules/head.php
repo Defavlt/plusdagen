@@ -12,7 +12,11 @@
     <link rel="stylesheet" href="css/bjqs.css">
 
 
+
     <!-- demo.css contains additional styles used to set up this demo page - not required for the slider, den här är för styling på slidern --> 
+
+    <!-- demo.css contains additional styles used to set up this demo page - not required for the slider -->
+
     <link rel="stylesheet" href="css/slider.css">
 
     <!-- load jQuery and the plugin -->
@@ -22,4 +26,4 @@
       
 </head>
 <body>
-	<div id="container_main">
+<div id="container_main">
