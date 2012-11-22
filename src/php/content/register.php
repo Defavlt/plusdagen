@@ -12,6 +12,7 @@
 	  }
 	}
 	</script>
+	<div class="forms">
 	<form action="index.php?api=register" method="post" name="regform" onsubmit="return validateForm()">
 		<fieldset>
 		<legend>Skapa ett konto</legend>
@@ -59,5 +60,6 @@
 		</fieldset>
 	</form>
 	<p>Har du redan ett konto? <a href="?p=login">Logga In</a></p>
+	</div>
 	</div>
 </div>

@@ -1,5 +1,6 @@
 ﻿<div id="main_content">
 	<div id="mainbox">
+		<div class="forms">
 	<form action="index.php?api=login" method="post">
 		<fieldset>
 		<legend>Logga In</legend>
@@ -19,5 +20,6 @@
 		</fieldset>
 	</form>
 	<p>Ej registrerad? <a href="?p=register">Skapa ett konto</a></p>
+		</div>
 	</div>
 </div>
