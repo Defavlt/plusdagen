@@ -12,7 +12,10 @@
 	  }
 	}
 	</script>
+<<<<<<< HEAD
 	<div class="forms">
+=======
+>>>>>>> member_functions_php
 	<form action="index.php?api=register" method="post" name="regform" onsubmit="return validateForm()">
 		<fieldset>
 		<legend>Skapa ett konto</legend>
@@ -61,5 +64,8 @@
 	</form>
 	<p>Har du redan ett konto? <a href="?p=login">Logga In</a></p>
 	</div>
+<<<<<<< HEAD
 	</div>
+=======
+>>>>>>> member_functions_php
 </div>

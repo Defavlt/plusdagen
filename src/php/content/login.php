@@ -1,6 +1,9 @@
 ﻿<div id="main_content">
 	<div id="mainbox">
+<<<<<<< HEAD
 		<div class="forms">
+=======
+>>>>>>> member_functions_php
 	<form action="index.php?api=login" method="post">
 		<fieldset>
 		<legend>Logga In</legend>
@@ -20,6 +23,9 @@
 		</fieldset>
 	</form>
 	<p>Ej registrerad? <a href="?p=register">Skapa ett konto</a></p>
+<<<<<<< HEAD
 		</div>
+=======
+>>>>>>> member_functions_php
 	</div>
 </div>
