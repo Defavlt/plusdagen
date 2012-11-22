@@ -1,0 +1,21 @@
+Spara en server:
+	* git remote add namn_på_server address
+
+Daglig arbetsrutin:
+
+	* git pull namn_på_server master
+	* git status
+	* Gör dina ändringar
+	* git status
+	* Läs vad du gjort och eventuella problem
+	* git add *
+	* git commit -am "Ditt meddelande" (behåll fnuttarna)
+	* git push origin master
+
+Vanliga kommandon:
+
+	* cd namn: navigera till mappen namn
+	* ls: visa filerna i mappen du är
+	* touch namn: skapa fil
+	* rm namn: radera filen namn
+	* mv namn nytt: flytta filen namn till nytt

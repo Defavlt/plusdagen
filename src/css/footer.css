@@ -1,0 +1,92 @@
+#foot h1 {
+	background-color: #444444;
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-size: 12px;
+	font-family: Georgia;
+}
+#foot {
+	position: relative;
+	height: 250px;
+	margin-bottom:-30px;
+	z-index:9999;
+	border-radius:10px 10px 0 0;
+	background-color: lightgray;
+	color:#efefef;
+	font-family:Verdana, Arial, sans-serif;
+}
+#foot a {
+	color:#444444;
+	font-size:11px;
+	text-decoration:none;
+}
+
+#registreafoot a {
+	font-size:20px;
+	text-decoration:none;
+}
+
+#foot a:hover {
+	color:gray;
+	text-decoration:none;
+}
+
+#foot #menyfoot {
+	position:relative;
+	width:150px;
+	margin-top:20px;
+	left:70px;
+	float:left;
+}
+#menyfoot p a{
+	font-size:12px;
+	color:#444444;
+	
+}
+
+#foot #registrerafoot {
+	position:relative;
+	width:200px;
+	margin-top:20px;
+	left:110px;
+	float:left;
+}
+#foot #loggainfoot {
+	position:relative;
+	width:200px;
+	margin-top:20px;
+	left:120px;
+	float:left;
+}
+
+#foot #nyheterfoot {
+	position:relative;
+	width:200px;
+	margin-top:20px;
+	left:130px;
+	float:left;
+}
+
+#footerlogin {
+	
+}
+
+#foot p.text1foot {
+	font-size:25px;
+	text-decoration:none;
+	text-shadow:none;
+	font-variant:small-caps;
+	color:#666666;
+}
+
+#foot p {
+	margin-top:0px;
+	text-decoration:none;
+	font-family:Verdana, Arial, sans-serif;
+	font-size:14px;
+	text-decoration:none;
+	color:#666666;
+	text-shadow:none;
+	font-variant:small-caps;
+}

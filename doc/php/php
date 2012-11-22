@@ -1,0 +1,19 @@
+För att testa sidan på ett smidigt sätt:
+
+    1. Om Marcus är i närheten:
+       Tvinga honom uppdatera servern.
+
+    2. Om Marcus inte är i närheten:
+       Följande behöver göras en gång:
+       A. Tryck på 'Zip' under 'VC9 x86 Non Thread Safe (datum)'
+       B. Packa upp till C:/php
+       C. Öppna Git Bash:
+           1. vi ~/.bashrc
+	   2. i
+	   3. export PATH=$PATH:/c/php/
+	   4. ESC
+	   5. :wq
+
+       För att starta upp en webserver, använd följande:
+           1. php -S localhost:8080 routing.php
+	   2. Knappa in 'localhost:8080' i din webbläsare.
