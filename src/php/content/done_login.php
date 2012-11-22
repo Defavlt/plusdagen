@@ -1,4 +1,23 @@
-﻿	<script type="text/javascript">
+﻿<?php
+
+require_once (classes . 'HttpBindable' . php);
+session_start();
+
+$cook = json_decode($_COOKIE['user']);
+$user = Registerer::Load($cook);
+
+if ( !(isset( $cook) &&
+	 	isset( $user) &&
+	 	$cook->username == $user->username &&
+	 	$cook->password == $user->password) ||
+	  !($_SESSION['user'])) 
+{
+	header('Location: ?p=login');
+}
+
+?>
+
+<script type="text/javascript">
 	function validateForm()
 	{
 	var x=document.forms["regform"]["password"].value;

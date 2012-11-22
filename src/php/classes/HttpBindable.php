@@ -3,7 +3,7 @@
 /**
  * 
  */
-class Registerer extends HttpBindable
+class Registerer
 {
 	var $name;
 	var $username;
@@ -13,40 +13,54 @@ class Registerer extends HttpBindable
 	var $postnummer;
 	var $stad;
 	var $monter;
-	var $method;
 	
-	function __construct( $method ) 
-	{
-		$this->method = '_' . strtoupper($method);
-	}
-}
-
-/**
- * 
- */
-class HttpBindable
-{	
 	function Bind()
 	{
 		$vars = get_class_vars(get_class($this));
-		var_dump($vars);
-		var_dump($this);
-		
-		foreach ($vars as $name => $value) 
-		{
-			echo $name . '<br>';
-			$this->{$name} = ${$this->method}[ $name ];
-		}
-	}
-	
-	function Hash( $salt )
-	{
-		$vars = get_object_vars($this);
 		
 		foreach ($vars as $name => $value)
 		{
-			$this->{$name} = hash('ripemd160', $value); //crypt($value, $salt);
+			$this->{$name} = $_POST[ $name ];
 		}
+	}
+	
+	function Hash( )
+	{
+		$pw = hash('ripemd160', $this->password);
+		$this->password = hash('ripemd160', $this->password);
+	}
+	
+	static function Load( $user )
+	{
+		$inst = new self;
+		$vars = get_class_vars(get_class($inst));
+		
+		foreach ($vars as $name => $value) 
+		{
+			$inst->{$name} = $user->$name;
+		}
+		
+		return $inst;
+	}
+
+	function Read( )
+	{
+		if( file_exists(cache . $this->username))
+		{
+			$file = fopen(cache . $this->username);
+			$cont = fread($file, filesize($file));
+			$cont = json_decode($cont);
+			$vars = get_class_vars(get_class($this));
+			
+			foreach ($vars as $name => $value) 
+			{
+				$this->{$name} = $cont->{$name};
+			}
+			
+			return true;
+		}
+		
+		return false;
 	}
 }
 

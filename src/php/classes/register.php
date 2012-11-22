@@ -13,13 +13,12 @@ class register
 		$reg->Hash($reg->username);
 		
 		$file = fopen( cache . $reg->username, 'w' );
-		
 		$content = json_encode($reg);
-		var_dump($content);
+		
 		fwrite($file, $content);
 		fclose($file);
 		
-		header('Location: index.php?p=done_register');
+		header('Location: index.php?p=login');
 	}
 }
 ?>
