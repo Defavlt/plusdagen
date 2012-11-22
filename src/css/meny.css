@@ -73,7 +73,6 @@
 	background-color:white;
 	width:200px;
 	height:40px;
-	z-index:9999;
 }
 
 #menu li li:hover > a {

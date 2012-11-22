@@ -1,4 +1,3 @@
-<div id="main_content">
 	
 		<div id="mainbox"> <!-- 3 kolumnerna ligger här -->
 			<div id="nyheter">
@@ -56,5 +55,5 @@
 			</dl>
 			</div>
 		</div>
-	</div>
+	
 	

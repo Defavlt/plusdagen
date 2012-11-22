@@ -1,11 +1,11 @@
 <div id="foot">
 		<div id="menyfoot">
 			<p class="text1foot">huvudmeny</p>
-			<p><a href="#">mässa</a></p>
-			<p><a href="#?">registrera</a></p>
-			<p><a href="#?">logga in</a></p>
-			<p><a href="#?">nyheter</a></p>
-			<p><a href="#?">hitta oss</a></p>
+			<p><a href="?p=index">startsida</a></p>
+			<p><a href="?p=register">registrera</a></p>
+			<p><a href="?p=login">logga in</a></p>
+			<p><a href="?p=plats">Plats</a></p>
+			<p><a href="?p=plats">hitta oss</a></p>
 		</div>
 		<div id="registrerafoot">
 			<p class="text1foot">hitta till oss</p>
@@ -22,7 +22,7 @@
 		</div>
 		<div id="nyheterfoot">
 			<p class="text1foot">karta</p>
-			<p class="googlemaps"><a href="googlemaps.html" title="Södra malmgatan 7">Google Maps</a></p>
+			<p class="googlemaps"><a href="?p=plats" title="Södra malmgatan 7">Google Maps</a></p>
 		</div>
 	</div>
 </div>

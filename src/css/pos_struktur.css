@@ -11,8 +11,15 @@ CSS f�r struktur och positionering. ingen f�rg eller font css h�r
 }
 /* Det �r i mainbox som all content visas */
 #mainbox {
+	width: 960px;
+	height:780px;
+	color:#444444;
+	border-radius:10px;
+	background-color:lightgray;
+	padding:0px;
 	margin-right: auto;
 	margin-left: auto;
+	margin-bottom:100px;
 }
 
 #main_content {

@@ -74,6 +74,18 @@ dd {
 	margin-bottom:100px;
 }
 
+#mainbox_v1 {
+	width: 960px;
+	height:780px;
+	color:#444444;
+	border-radius:10px;
+	background-color:lightgray;
+	padding:0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom:150px;
+}
+
 #nyheter_vv{
 	width: 900px;
 	height: 430px;
