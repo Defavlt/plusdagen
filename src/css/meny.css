@@ -34,7 +34,11 @@
 }
 
 #menu li:hover{
-	background-color:#666666;
+	background-color:#666;
+}
+
+#menu li.menylogin:hover{
+	background-color:white;
 }
 
 #menu li a{

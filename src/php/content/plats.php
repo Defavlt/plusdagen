@@ -3,6 +3,8 @@
 						<div id="plats_content">
 							<h1>Plats - Karta</h1>		
 					<p>Här kan ni se en karta på vart vi finns och vart ni kan parkera</p>
+					<br>
+					<br>
 				<h1>Kontakta oss</h1>
 					<p>0480-845930</p>
 					<p>adress: strömgatan 3</p>
@@ -23,10 +25,14 @@
 >>>>>>> member_functions_php
 				<img src="../img/parkering.png" alt="parkeringsplatser" width="425" height="350"/>
 				</div>
+<<<<<<< Updated upstream
 				<div id="plats_info">
 				<p>Arbetsmarknadsdagen kommer äga rum på Södra Malmgatan 7.<br> På bilden under visas närliggande parkeringsplatser.</p>
 				<p>
 				</div>
+=======
+
+>>>>>>> Stashed changes
 				<div class="clearfloat">
 				&nbsp;
 				</div>

@@ -1,5 +1,4 @@
-﻿<div id="main_content">
-	<div id="mainbox">
+﻿<div id="mainboxreg">
 	<script type="text/javascript">
 	function validateForm()
 	{
@@ -12,7 +11,11 @@
 	  }
 	}
 	</script>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+<div id="mainbox_reg">
+>>>>>>> Stashed changes
 	<div class="forms">
 =======
 >>>>>>> member_functions_php
@@ -64,8 +67,13 @@
 	</form>
 	<p>Har du redan ett konto? <a href="?p=login">Logga In</a></p>
 	</div>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 	</div>
 =======
 >>>>>>> member_functions_php
 </div>
+=======
+</div>
+	</div>
+>>>>>>> Stashed changes

@@ -3,15 +3,13 @@
 			<p class="text1foot">huvudmeny</p>
 			<p><a href="?p=index">startsida</a></p>
 			<p><a href="?p=register">registrera</a></p>
-			<p><a href="?p=login">logga in</a></p>
+			<p><a href="?p=#foot">logga in</a></p>
 			<p><a href="?p=plats">Plats</a></p>
 			<p><a href="?p=plats">hitta oss</a></p>
 		</div>
 		<div id="registrerafoot">
-			<p class="text1foot">hitta till oss</p>
-			<p>adress: strömgatan 3</p>
-			<p>telefon: 0480-45902</p>
-			<p>post: 369 45 Kalmar</p>
+			<p class="text1foot">karta</p>
+			<p class="googlemaps"><a href="?p=plats" title="Södra Malmgatan 7.">Google Maps</a></p>
 		</div>
 		<div id="loggainfoot">
 			<p class="text1foot">kontakta oss</p>
@@ -21,10 +19,29 @@
 			<p><a href="mailto:Support@plusdagen.se">maila oss</a></p>
 		</div>
 		<div id="nyheterfoot">
-			<p class="text1foot">karta</p>
-			<p class="googlemaps"><a href="?p=plats" title="Södra Malmgatan 7.">Google Maps</a></p>
+	<div id="mainboxlog">
+	<div id="mainbox_login">
+		<div class="forms">
+	<form action="index.php?api=login" method="post">
+		<legend><p class="text1foot">logga in</p></legend>
+		<table>
+		<tr>
+			<td><input type="text" name="username" id="name" placeholder="Användarnamn"/></td>
+		</tr>
+		<tr>
+			<td><input type="password" name="password" id="pass" placeholder="Lösenord"/></td>
+		</tr>
+		</table>
+		<button type="submit">
+		<b>Logga In</b>
+		</button>
+	</form>
+	<p>Ej registrerad? <a href="?p=register">Skapa ett konto</a></p>
 		</div>
 	</div>
 </div>
+</div>
+		</div>
+	</div>
 </body>
 </html>

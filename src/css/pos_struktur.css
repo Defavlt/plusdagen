@@ -12,7 +12,7 @@ CSS f�r struktur och positionering. ingen f�rg eller font css h�r
 /* Det �r i mainbox som all content visas */
 #mainbox {
 	width: 960px;
-	height:780px;
+	height:480px;
 	color:#444444;
 	border-radius:10px;
 	background-color:lightgray;
@@ -54,15 +54,7 @@ CSS f�r struktur och positionering. ingen f�rg eller font css h�r
 	margin-top: 5px;
 }
 /* texten v�nster om kartan p� sidan plats */
-#plats_infso {
-	position:absolute;
-	top:800px;
-	left:750px;
-	float: right;
-	width: 370px;
-	height: 300px;
-	overflow: auto;
-}
+
 #karta1 {
 	position:absolute;
 	top:500px;
@@ -75,8 +67,8 @@ CSS f�r struktur och positionering. ingen f�rg eller font css h�r
 	height: 800px;
 }
 #vad {
-	width: 900px;
-	height: 700px;
+	width: 910px;
+	height: 400px;
 	border-radius:10px;
 	background-color:#efefef;
 	float: left;
@@ -86,6 +78,17 @@ CSS f�r struktur och positionering. ingen f�rg eller font css h�r
 	margin-left: 10px;
 	margin-bottom: 10px;
 	overflow: auto;
+}
+
+#mainbox_logreg {
+	width: 940px;
+	height: 800px;
+	border-radius:10px;
+	background-color:#efefef;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
 }
 
 #plats_content h1{

@@ -4,12 +4,22 @@
 	margin-left: auto;
 }
 .forms {
-	width: 400px;
+	width: 200px;
 	margin-right: auto;
 	margin-left: auto;
+	float:left;
 	font-family: Georgia;
 	font-size: 15px;
 	padding: 15px;
+}
+
+#forms_meny
+	width: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	float:left;
+	font-family: Georgia;
+	font-size: 15px;
 }
 #header {
 	width:960px;
@@ -82,6 +92,25 @@ dd {
 	margin-bottom:100px;
 }
 
+#mainboxlog {
+	color:#444444;
+	border-radius:10px;
+	background-color:lightgray;
+	padding:0px;
+}
+
+#mainboxreg {
+	width: 960px;
+	height:400px;
+	color:#444444;
+	border-radius:10px;
+	background-color:lightgray;
+	padding:0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:10px;
+	margin-bottom:100px;
+}
 #mainbox_plats {
 	width: 960px;
 	height:880px;
@@ -92,6 +121,28 @@ dd {
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom:100px;
+}
+
+#mainbox_plats #plats_content h1{
+	margin-top:20px;
+}
+
+#mainbox_login {
+	width: 100px;
+	height: 100px;
+	border-radius:10px;
+	float: left;
+}
+
+#mainbox_reg {
+	width: 940px;
+	height: 320px;
+	border-radius:10px;
+	background-color:#efefef;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
 }
 
 #mainbox_v1 {
@@ -127,16 +178,10 @@ dd {
 	margin-top: 10px;
 	margin-left: 10px;
 }
-#plats_content h1{
-	margin-top:100px;
-}
 
-#mainbox_plats #plats_content h1{
-	margin-top:15px;
-}
 
 #plats_content {
-	width: 900px;
+	width: 940px;
 	height: 800px;
 	border-radius:10px;
 	background-color:#efefef;
@@ -144,6 +189,23 @@ dd {
 	margin-right: 10px;
 	margin-top: 10px;
 	margin-left: 10px;
+}
+
+#forms_content{
+	width: 940px;
+	height: 900px;
+	border-radius:10px;
+	background-color:#efefef;
+	float: left;
+
+}
+
+#forms_content p{
+	margin-left:10px;
+}
+
+#forms_content h1 {
+	margin-top:100px;
 }
 
 #plats_content p{
@@ -410,11 +472,6 @@ body {
 	height:94px;
 }
 
-#menu li:hover{
-	background-color:#666666;
-	visibility:visible;
-}
-
 #menu li a{
 	color:#8A8A8A;
 	position:relative;
@@ -426,10 +483,7 @@ body {
 	text-decoration:none;
 }
 
-#menu li a:active{
-	visibility:visible;
-	background-color:gray;
-}
+
 
 #menu a {
 	float: left;
@@ -456,10 +510,6 @@ body {
 	width:200px;
 	height:40px;
 
-}
-
-#wrap {
-	min-height: 100%;
 }
 
 #menu li:hover > ul{
@@ -584,15 +634,15 @@ margin-top:-32767px;
 	position:relative;
 	width:200px;
 	margin-top:20px;
-	left:120px;
+	left:80px;
 	float:left;
 }
 
 #foot #nyheterfoot {
 	position:relative;
-	width:200px;
-	margin-top:20px;
-	left:130px;
+	width:180px;
+	margin-top:5px;
+	left:90px;
 	float:left;
 }
 #foot p.text1foot {
@@ -604,6 +654,17 @@ margin-top:-32767px;
 }
 
 #foot p {
+	margin-top:0px;
+	text-decoration:none;
+	font-family:Verdana, Arial, sans-serif;
+	font-size:14px;
+	text-decoration:none;
+	color:#666666;
+	text-shadow:none;
+	font-variant:small-caps;
+}
+
+#foot td {
 	margin-top:0px;
 	text-decoration:none;
 	font-family:Verdana, Arial, sans-serif;

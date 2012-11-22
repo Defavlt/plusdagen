@@ -1,6 +1,11 @@
+<<<<<<< Updated upstream
 ﻿<div id="main_content">
 	<div id="mainbox">
 <<<<<<< HEAD
+=======
+﻿<div id="mainboxlog">
+	<div id="mainbox_login">
+>>>>>>> Stashed changes
 		<div class="forms">
 =======
 >>>>>>> member_functions_php
