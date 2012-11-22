@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-﻿	<script type="text/javascript">
-=======
+
 ﻿<?php
 
 require_once (classes . 'HttpBindable' . php);
@@ -21,7 +19,6 @@ if ( !(isset( $cook) &&
 ?>
 
 <script type="text/javascript">
->>>>>>> member_functions_php
 	function validateForm()
 	{
 	var x=document.forms["regform"]["password"].value;
