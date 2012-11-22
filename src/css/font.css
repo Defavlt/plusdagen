@@ -71,6 +71,19 @@ dd {
 	padding:0px;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top:10px;
+	margin-bottom:100px;
+}
+
+#mainbox_plats {
+	width: 960px;
+	height:880px;
+	color:#444444;
+	border-radius:10px;
+	background-color:lightgray;
+	padding:0px;
+	margin-right: auto;
+	margin-left: auto;
 	margin-bottom:100px;
 }
 
@@ -106,6 +119,28 @@ dd {
 	margin-right: 10px;
 	margin-top: 10px;
 	margin-left: 10px;
+}
+#plats_content h1{
+	margin-top:100px;
+}
+
+#mainbox_plats #plats_content h1{
+	margin-top:15px;
+}
+
+#plats_content {
+	width: 900px;
+	height: 800px;
+	border-radius:10px;
+	background-color:#efefef;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#plats_content p{
+	margin-left:10px;
 }
 
 #foretag {

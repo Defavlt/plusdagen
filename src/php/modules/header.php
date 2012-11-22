@@ -4,7 +4,6 @@
 			<li>
 				<a href="?p=index"> hem</a>
 					<ul>
-						<li><a href="?p=index">Start</a></li>
 						<li><a href="?p=schema">Schema</a></li>
 					</ul>
 			</li>
@@ -19,11 +18,7 @@
 				
 				
 			</li>
-			<li><a href="?p=nyheter"> kontakta oss</a>
-				<ul>
-					<li><a href="?p=plats">plats</a></li>
-				</ul>
-			</li>
+			<li><a href="?p=plats"> kontakta oss</a>
 		</ul>
 		</div>
 	</div>
