@@ -1,7 +1,5 @@
 ﻿		<div id="mainbox"> <!-- 3 kolumnerna ligger här -->
-			<div id="breadcrumb">
-			<a href="index.html">Hem</a> > <a href="massa.html">Mässa</a> > Vad/Varför?
-			</div>
+
 			<div id="vad">
 			
 			<h1>Vad är en arbetsmarknadsdag?</h1>
@@ -11,3 +9,4 @@
 			<p>Och vem vet kanske framtida arbetsgivare. Alla är välkomna att utvecklas med oss!</p>
 			</div>
 		</div> <!-- mainbox -->
+</div>

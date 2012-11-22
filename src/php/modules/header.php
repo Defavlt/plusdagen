@@ -1,32 +1,27 @@
 	<div id="header">
 		<div id="huvudmenu">
     		<ul id="menu">
-			<li><a href="index.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; hem</a>
+			<li><a href="?p=index"> hem</a>
 				<ul>
-					<li><a href="content/vad.php/">Vad/Varför</a></li>
-					<li><a href="#">Plats</a></li>
-					<li><a href="#">Schema</a></li>
+					<li><a href="?p=plats">Plats</a></li>
+					<li><a href="?p=schema">Schema</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="index.html">&nbsp; registrera</a>
-				<ul>
-					<li><a href="#">deltagare</a></li>
-					<li><a href="#">företag</a></li>
-				</ul>
+				<a href="?p=registrera"> registrera</a>
 			</li>
-			<li><a href="index.html">&nbsp; logga in</a>
+			<li><a href=""> logga in</a>
 				<ul>
 					<li><a href="#">deltagare</a></li>
 					<li><a href="#">företag</a></li>
 					<li><a href="#">administratör</a></li>
 				</ul>
 			</li>
-			<li><a href="index.html">&nbsp; nyheter</a>
+			<li><a href="?p=nyheter"> nyheter</a>
 				<ul>
-					<li><a href="#">aktiviteter</a></li>
-					<li><a href="#">kommande</a></li>
-					<li><a href="#">ny sida</a></li>
+					<li><a href="?p=nyheter1">aktiviteter</a></li>
+					<li><a href="?p=nyheter2">kommande</a></li>
+					<li><a href="?p=nyheter3">ny sida</a></li>
 				</ul>
 			</li>
 		</ul>

@@ -64,13 +64,14 @@ dd {
 
 #mainbox {
 	width: 960px;
-	height:480px;
+	height:780px;
 	color:#444444;
 	border-radius:10px;
 	background-color:lightgray;
 	padding:0px;
 	margin-right: auto;
 	margin-left: auto;
+	margin-bottom:100px;
 }
 
 #nyheter_vv{
