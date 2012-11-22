@@ -83,4 +83,6 @@ ol.bjqs-markers li a:hover{
 
 p.bjqs-caption{
 	background: rgba(255,255,255,0.5);
+	font-size: 20px;
+	font-family: Georgia;
 }
