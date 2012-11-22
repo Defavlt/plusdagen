@@ -15,14 +15,14 @@
 		</div>
 		<div id="loggainfoot">
 			<p class="text1foot">kontakta oss</p>
-			<p>strömgatan 3</p>
+			<p>södra malmgatan 7.</p>
 			<p>369 45 kalmar</p>
 			<p>tel: 0480-45902</p>
 			<p><a href="mailto:Support@plusdagen.se">maila oss</a></p>
 		</div>
 		<div id="nyheterfoot">
 			<p class="text1foot">karta</p>
-			<p class="googlemaps"><a href="?p=plats" title="Södra malmgatan 7">Google Maps</a></p>
+			<p class="googlemaps"><a href="?p=plats" title="Södra Malmgatan 7.">Google Maps</a></p>
 		</div>
 	</div>
 </div>
