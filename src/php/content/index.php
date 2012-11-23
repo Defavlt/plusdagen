@@ -1,4 +1,3 @@
-	
 		<div id="mainbox"> <!-- 3 kolumnerna ligger här -->
 			<div id="nyheter">
 			<h1>nyheter</h1>
